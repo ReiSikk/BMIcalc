@@ -1,0 +1,68 @@
+.bmi-calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: #ccc;
+    width: 66vw;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  #calculateButton {
+    padding: 1rem 2rem;
+    background: #007bff;
+    border-radius: 6px;
+    max-width: 250px;
+    min-width: 150px;
+    text-align: center;
+  }
+  .button-result {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;;
+  }
+  .button-result p {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
